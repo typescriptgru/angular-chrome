@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background: white;
+}
+.content { 
+	padding: 0 70px; 
+	height: 100%; 
+}
+
+
+div.header { 
+	height: 90px; 
+	width: 100%; 
+	border-bottom: solid 1px black;}
+	div.header .content {
+		height: 70px; 
+		padding-top: 20px; }
+		div.header .content .logo {
+			float: left;}
+			div.header .content .logo img {
+				height: 60px;}
+		div.header .content .nav {
+			float: left;}
+			div.header .content .nav li {
+				float: left;
+				list-style: none;}
+
+div.main {
+	padding-top: 50px;}
+	/*div.main .content li.history {
+		width: 32%;
+		list-style: none;
+		float: left;}*/

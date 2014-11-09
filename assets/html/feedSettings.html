@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>MyMundus - Settings</title>
+		<link rel="stylesheet" href="../css/settings.css" />
+		<script src="../js/jquery.min.js" ></script>
+		<script src="../js/angular.min.js" ></script>
+		<script src="../js/settings.js" ></script>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+		<script src="../js/facebook-inline.js"></script>
+		<div class="wrapper">
+			<div class="header">
+				<div class="content">
+					<div class="logo">
+						<a target="_blank" href="http://www.mymundus.com/">
+							<img src="../img/logo.png">
+						</a>
+					</div>
+					<div class="nav">
+						<ul>
+							<li>
+								<a href="settings.html">History Settins</a>
+							</li>
+							<li>
+								<a href="tagSettings.html">Tag Settins</a>
+							</li>
+							<li>
+								<a href="">Feed Settings</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main" ng-app="myMundus" ng-controller="FeedController as feed">
+				<div class="content">
+					<div  data-bind="feeds">
+						<ul>
+							<li ng-repeat="feed in feeds">
+								<a href="{{feed}}">
+									{{feed}}
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="buttons-container">
+				<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="true" data-auto-logout-link="true"></div>
+			</div>
+		</div>
+	</body>
+</html>

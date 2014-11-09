@@ -1,0 +1,194 @@
+{
+   "EOF": {
+      "message": "EOF"
+   },
+   "any_color": {
+      "message": "Beliebige Farbe"
+   },
+   "any_time": {
+      "message": "Beliebige Zeit"
+   },
+   "black": {
+      "message": "Schwarz"
+   },
+   "blue": {
+      "message": "Blau"
+   },
+   "brown": {
+      "message": "Braun"
+   },
+   "code_already_registered": {
+      "message": "bereits registriert"
+   },
+   "code_confirmed": {
+      "message": "bestätigt"
+   },
+   "code_invalid_domain": {
+      "message": "ungültige Domain"
+   },
+   "code_invalid_mail": {
+      "message": "Deine Email Adresse ist ungültig."
+   },
+   "code_invalid_token": {
+      "message": "ungültiger Bestätigungscode"
+   },
+   "code_mail_in_use": {
+      "message": "Diese Email Adresse wird bereits verwendet."
+   },
+   "code_ok": {
+      "message": "OK"
+   },
+   "code_pending": {
+      "message": "Bestätigung ausstehend"
+   },
+   "copyright": {
+      "message": "&copy; 2013 mymundus.com, alle Rechte vorbehalten."
+   },
+   "country": {
+      "message": "DE"
+   },
+   "currentHistorySpaceLabel": {
+      "message": "Aktueller Suchzeitraum: "
+   },
+   "emailForSearchSpace": {
+      "message": "Hinterlasse deine Email Adresse und du erhältst zusätzlichen Suchzeitraum:"
+   },
+   "endOfList": {
+      "message": "Du bist schon ans Ende angelangt, versuche doch dein Glück mit \u003Ca href='$1'>Google\u003C/a>."
+   },
+   "errorRecommendFriends": {
+      "message": "Etwas ist schief gelaufen. Bist du sicher, dass alle Adresse korrekt sind?"
+   },
+   "foundOnLabel": {
+      "message": "gefunden am $1"
+   },
+   "getMoreHistorySpaceLabel": {
+      "message": "Mehr Suchzeitraum anfordern!"
+   },
+   "getMoreSpaceLabel": {
+      "message": "mehr anfordern"
+   },
+   "gray": {
+      "message": "Grau"
+   },
+   "green": {
+      "message": "Grün"
+   },
+   "inviteFriends": {
+      "message": "Freunde einladen"
+   },
+   "lang": {
+      "message": "de"
+   },
+   "loadingResultsLabel": {
+      "message": "Resultate werden geladen ..."
+   },
+   "menuImageLabel": {
+      "message": "Nach Farbe filtern:"
+   },
+   "newTab": {
+      "message": "\u003Cstrong>MyMundus\u003C/strong> öffnen wenn ein \u003Cstrong>neuer Tab\u003C/strong> erstellt wird."
+   },
+   "okGotIt": {
+      "message": "OK, alles klar!"
+   },
+   "orange": {
+      "message": "Orange"
+   },
+   "past_day": {
+      "message": "Letzter Tag"
+   },
+   "past_hour": {
+      "message": "Letzte Stunde"
+   },
+   "past_month": {
+      "message": "Letzter Monat"
+   },
+   "past_week": {
+      "message": "Letzte Woche"
+   },
+   "past_year": {
+      "message": "Letztes Jahr"
+   },
+   "pink": {
+      "message": "Pink"
+   },
+   "purple": {
+      "message": "Violett"
+   },
+   "recommendMymundusLabel": {
+      "message": "MyMundus deinen Freunden empfehlen"
+   },
+   "red": {
+      "message": "Rot"
+   },
+   "resultsFoundLabel": {
+      "message": "Wir haben \u003Cspan class='marker'>$1 Seiten\u003C/span> passend zur deiner Anfrage gefunden!"
+   },
+   "resultsInHistory": {
+      "message": "hat \u003Ca href='$1' style='text-decoration: none; color: #F07921'>$2 Resultate\u003C/a> in deiner History gefunden."
+   },
+   "saveButton": {
+      "message": "Speichern"
+   },
+   "searchButton": {
+      "message": "Suche"
+   },
+   "searchOnGoogleLabel": {
+      "message": "Cool, aber suche lieber bei \u003Ca id='google-link' href='$1' target='_blank'>Google\u003C/a>."
+   },
+   "searchYourPastLabel": {
+      "message": "in deiner Vergangenheit suchen ..."
+   },
+   "selectUrlFilter": {
+      "message": "URL zum Filtern auswählen"
+   },
+   "settingsTitle": {
+      "message": "Einstellungen"
+   },
+   "socialFacebook": {
+      "message": "Wir von MyMundus freuen uns dir weitergeholfen zu haben. Unterstütze uns und füge @MyMundus im Kommentar oben hinzu. Danke, Constantin (MyMundus Mitgründer)"
+   },
+   "socialMail": {
+      "message": "mailto:?subject=Ich habe soeben '$1' mit Hilfe von MyMundus gefunden.&body=$2 %0D%0A %0D%0A $1 %0D%0A %0D%0A www.mymundus.com - Wir helfen dir die Webseiten wieder zu finden, die du vergessen hast zu bookmarken."
+   },
+   "socialTwitter": {
+      "message": "Ich habe soeben $1 mit Hilfe von @MyMundus gefunden."
+   },
+   "storeHttps": {
+      "message": "Sichere Seiten speichern. (\u003Ci>Webseiten beginnend mit \u003Cstrong>https://\u003C/strong>\u003C/i>)"
+   },
+   "surfTheWeb": {
+      "message": "Jetzt kannst du ohne Sorgen im Web surfen und wann auch immer du Webseiten wiederfinden willst klick einfach auf das \u003Cimg src='../../../../res/mymundus_logo.png' /> Symbol neben der Adressleiste."
+   },
+   "turquoise": {
+      "message": "Türkis"
+   },
+   "upgradePremium": {
+      "message": "Hole dir MyMundus Premium und du kannst mit alle deinen Geräte auf deine History durchsuchen."
+   },
+   "urlFilter": {
+      "message": "URL Filter"
+   },
+   "visitedOn": {
+      "message": "$1"
+   },
+   "wantMoreSearchSpace": {
+      "message": "Dir reicht das nicht? - Empfehle MyMundus deinen Freunden. Für jede bestätigte Empfehlung erhältst du \u003Cstrong>5 weitere Tage\u003C/strong> zu deinem Suchzeitraum. So einfach geht das!"
+   },
+   "welcomeTitle": {
+      "message": "Du hast MyMundus installiert!"
+   },
+   "white": {
+      "message": "Weiß"
+   },
+   "xDays": {
+      "message": "$1 Tage"
+   },
+   "yellow": {
+      "message": "Gelb"
+   },
+   "yourCurrentSearchSpace": {
+      "message": "Dein aktueller Suchzeitraum beträgt \u003Cstrong id='search_space'>unknown\u003C/strong>. Das bedeutet du kannst mit MyMundus deinen Browserverlauf für diesen Zeitraum durchsuchen."
+   }
+}

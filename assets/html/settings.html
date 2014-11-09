@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<title>MyMundus - Settings</title>
+		<link rel="stylesheet" href="../css/settings.css" />
+		<script src="../js/jquery.min.js" ></script>
+		<script src="../js/angular.min.js" ></script>
+		<script src="../js/isotope.js" ></script>
+		<script src="../js/settings.js" ></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="content">
+					<div class="logo">
+						<a target="_blank" href="http://www.mymundus.com/">
+							<img src="../img/logo.png">
+						</a>
+					</div>
+					<div class="nav">
+						<ul>
+							<li>
+								<a href="">History Settins</a>
+							</li>
+							<li>
+								<a href="tagSettings.html">Tag Settins</a>
+							</li>
+							<li>
+								<a href="feedSettings.html">Feed Settins</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main" ng-app="myMundus" ng-controller="HistoryController as history">
+				<div class="content">
+					<div  data-bind="histories">
+						<ul id="histories">
+							<li ng-repeat="h in histories" class="history">
+								<div class="title-container">
+									<h4 class="title">{{h.title}}</h4>
+								</div>
+								<div class="img">
+									<img src="{{h.img_url}}" class="page-image">
+								</div>
+								<div class="summary">
+									<p>{{h.summary}}</p>
+								</div>
+								<div class="page-info">
+									<div class="favicon-container">
+										<a target="_blank" href="{{h.url}}"><img src="{{h.favicon_url}}" class="favicon"></a>
+									</div>
+									<div class="detail">
+									</div>
+									<div class="social">
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

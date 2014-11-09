@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": ["assets/js/jquery.min.js", "assets/js/DB.js", "assets/js/background.js"]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/img/icon19.png",
+         "38": "assets/img/icon38.png"
+      },
+      "default_title": "MyMundus Web History"
+   },
+   "options_page": "assets/html/settings.html",
+   "content_scripts": [ {
+      "js": [ "assets/js/jquery.min.js", "assets/js/content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' chrome-extension:// 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "MyMundus helps you refinding information you have already seen on the internet.",
+   "icons": {
+      "128": "assets/img/icon128.png",
+      "16": "assets/img/icon16.png",
+      "48": "assets/img/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "MyMundus History Keeping extension",
+   "omnibox": {
+      "keyword": "mm"
+   },
+   "permissions": [ "<all_urls>", "tabs", "storage", "unlimitedStorage", "history", "notifications", "bookmarks"],
+   "version": "1.0.0",
+   "web_accessible_resources": [ "*" ]
+}
